@@ -1,0 +1,38 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.cats{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 3px;
+}
+.box{
+    box-shadow: 5px 5px 5px #0006;
+}
+.cats > div{
+    flex: 1 1 350px;
+    padding: 15px;
+}
+.tittle{
+    background-color: #FFE4C4;
+    padding: 0%;
+    margin: 0%;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    position: sticky;
+    top: 0px;
+}
+h2{
+    font-size: 5em;
+    text-align: center;
+    margin: 0%;
+}

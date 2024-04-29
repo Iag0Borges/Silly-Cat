@@ -1,0 +1,266 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+    background-color: #FFFFF0;
+    padding: 1%;
+    margin: 0%;
+}
+
+.cabeçalho li{
+    justify-content: center;
+    list-style: none;
+}
+
+.titulo{
+    background-color: #FFE4C4;
+    padding: 0%;
+    margin: 0%;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    position: sticky;
+    top: 0px;
+}
+.link{
+    text-decoration: none;
+    font-size: 2em;      
+    border-top: 1px solid rgba(252, 234, 234, 0.5);       
+    border-bottom: 1px solid rgba(252, 234, 234, 0.5);
+}
+.linkh1{
+    gap: 0;
+    padding: 22px;
+    margin: 0;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgba(245, 222, 179,0.6);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgba(245, 222, 179,0.9);
+}
+.navbar li{
+    float: left;
+}
+
+
+
+
+h2{
+    font-size: 5em;
+    text-align: center;
+    margin: 0%;
+}
+
+
+.container-imagem{
+    background-image: linear-gradient(rgba(170, 161, 143, 0.1),rgba(51, 47, 43, 0.8)), url(gato0.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+}
+
+
+.texto{
+    text-align: left;
+    font-size: 32px;
+    color: whitesmoke;
+    padding-left: 30px;
+    font-family:'Courier New', Courier, monospace
+}
+.texto2{
+    text-align: end;
+    font-size: 32px;
+    color: whitesmoke;
+    padding-right: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.texto3{
+    text-align: end;
+    font-size: 20px;
+    color: whitesmoke;
+    padding-right: 10px;
+    
+}
+
+.gatoimagem{
+    width: 100%;
+    height: 100%;
+}
+
+.imagem{
+    height: 80%;
+    width: 80%;
+    display: flex;
+}
+
+@media (max-width: 1400px){
+    .container-imagem{
+        flex-direction: column;
+    }
+    .texto, 
+    .texto2{
+        font-size: 16px;
+    }
+    .imagem img{
+        width: 100%;
+    }
+}
+
+.sillycatsnews{                                        /*inicio da segunda parte do site */
+    background-color: #FFFFE0;
+    padding: 0%;
+    margin: 0%;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    top: 0px;
+}
+h3{
+    font-size: 3em;
+    text-align: center;
+    margin: 0%;
+}
+
+
+
+
+
+.gato1{
+    padding-top: 10px;
+    padding-left: 10%;
+    display: flex;
+    width: 100%;
+    margin-bottom: 8px;
+ }
+.corgato1{
+    background-image: linear-gradient(#f8eedc, #f1e2c7);
+ }
+
+
+
+.gato2 {
+    padding-top: 10px;
+    padding-left: 10%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 8px;
+ }
+.corgato2{
+    background-image: linear-gradient(#f1e2c7,#f8eedc );
+}
+
+
+
+.gato3 {
+    padding-top: 10px;
+    padding-left: 10%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 8px;
+ }
+.corgato3{
+    background-image: linear-gradient(#f8eedc, #f1e2c7);
+}
+
+
+
+.gato4 {
+    padding-top: 10px;
+    padding-left: 10%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 8px;
+ }
+.corgato4{
+    background-image: linear-gradient(#f1e2c7,#f8eedc );
+}
+
+
+
+.gato5 {
+    padding-top: 10px;
+    padding-left: 10%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 8px;
+ }
+.corgato5{
+    background-image: linear-gradient(#f8eedc, #f1e2c7);
+}
+
+
+
+.gato6 {
+    padding-top: 10px;
+    padding-left: 10%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 8px;
+ }
+.corgato6{
+    background-image: linear-gradient(#f1e2c7,#f8eedc );
+}
+
+
+.textogato {
+    font-size: 25px;
+    margin: 20px;
+    color: black;
+}
+.link{
+    text-decoration: none;
+    display: flex;
+    color: black;
+}
+hr{
+    margin: 0;
+}
+
+@media (max-width: 1400px){
+    .gato1,
+    .gato2,
+    .gato3,
+    .gato4,
+    .gato5,
+    .gato6{
+        flex-direction: row;
+    } 
+    .textogato{
+        font-size: 16px;
+    }
+    .gato1,
+    .gato2,
+    .gato3,
+    .gato4,
+    .gato5,
+    .gato6{
+        width: 100%;
+    }
+}

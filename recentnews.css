@@ -1,0 +1,32 @@
+.noticiasgato{
+    background-image: linear-gradient(rgba(247, 240, 228,0.8),rgba(247, 240, 228,0.8)), url(fotodefundo.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.esquerda{
+    width: 80%;
+    text-align: left;
+    padding-left: 10px;
+}
+.IDK{
+    background-color: rgba(247, 213, 151, 0.3);
+    width: 12%;
+    display: absolute;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #0006;
+    
+}
+.textoIDK{
+    padding-left: 8px;
+    
+}
+.gatoimagem{
+    padding-top: 100px;
+    padding-left: 9%;
+}
+.container-IDK{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
