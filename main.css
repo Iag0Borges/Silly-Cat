@@ -74,7 +74,7 @@ h2{
 
 
 .container-imagem{
-    background-image: linear-gradient(rgba(170, 161, 143, 0.1),rgba(51, 47, 43, 0.8)), url(gato0.jpg);
+    background-image: linear-gradient(rgba(170, 161, 143, 0.1),rgba(51, 47, 43, 0.8)), url(mainPhotos/cat0.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -262,5 +262,26 @@ hr{
     .gato5,
     .gato6{
         width: 100%;
+    }
+}
+@media (max-width: 400px){
+    .gato1,
+    .gato2,
+    .gato3,
+    .gato4,
+    .gato5,
+    .gato6{
+        flex-direction: row;
+    } 
+    .textogato{
+        font-size: 16px;
+    }
+    .gato1,
+    .gato2,
+    .gato3,
+    .gato4,
+    .gato5,
+    .gato6{
+        width: 200%;
     }
 }

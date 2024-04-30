@@ -1,10 +1,10 @@
-.noticiasgato{
-    background-image: linear-gradient(rgba(247, 240, 228,0.8),rgba(247, 240, 228,0.8)), url(fotodefundo.jpg);
+.catnews{
+    background-image: linear-gradient(rgba(247, 240, 228,0.8),rgba(247, 240, 228,0.8)), url(mainPhotos/backgroundPhoto.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
 }
-.esquerda{
+.right{
     width: 80%;
     text-align: left;
     padding-left: 10px;
@@ -17,11 +17,11 @@
     box-shadow: 5px 5px 5px #0006;
     
 }
-.textoIDK{
+.textIDK{
     padding-left: 8px;
     
 }
-.gatoimagem{
+.catimage{
     padding-top: 100px;
     padding-left: 9%;
 }
